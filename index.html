@@ -6,20 +6,37 @@
     <title>API REST</title>
 </head>
 <body>
-    <h1>API REST</h1>
-    <p>Hola bienvenido a la prueba de API REST</p>
-    <img alt="Pruebas API" width="150" id="img1">
-    <img alt="Pruebas API" width="150" id="img2">
-    <img alt="Pruebas API" width="150" id="img3">
-    <img alt="Pruebas API" width="150" id="img4">
-    <img alt="Pruebas API" width="150" id="img5">
-    <img alt="Pruebas API" width="150" id="img6">
-    <img alt="Pruebas API" width="150" id="img7">
-    <img alt="Pruebas API" width="150" id="img8">
-    <img alt="Pruebas API" width="150" id="img9">
-    <img alt="Pruebas API" width="150" id="img10">
+    <section>
+        <h1>API REST</h1>
+        <p>Hola bienvenido a la prueba de API REST</p>
+
+        <h2>Gatitos Aleatorios</h2>
+        <article>
+            <img alt="Pruebas API" width="150" id="img1">
+            <button>Guardar Michi en Favoritos</button>
+        </article>
+
+        <article>
+            <img alt="Pruebas API" width="150" id="img2">
+            <button>Guardar Michi en Favoritos</button>
+        </article>
+
+        <article>
+            <img alt="Pruebas API" width="150" id="img3">
+            <button>Guardar Michi en Favoritos</button>
+        </article>
+
+        <button onclick="reload()">Cambiar</button>
+    </section>
+
     
-    <button onclick="reload()">Cambiar</button>
+    <section id="favoritiesMichies">
+        <h2>Gatitos Favoritos</h2>
+        <article>
+            <img alt="Pruebas API" width="150" id="img1">
+            <button>Sacar Michi en Favoritos</button>
+        </article>
+    </section>
 
     <script src="./main.js"></script>
 </body>
