@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API REST CREADA POR FELIPE</title>
+</head>
+<body>
+    <h1>GATITOS APP</h1>
+    <p>Hola bienvenido a la prueba de API REST</p>
+    <!-- Este spam Erro se hace para explicar el error que está tirando la consola -->
+    <span id="error"></span>
+    
+    <section>
+        <h2>Gatitos Aleatorios</h2>
+        
+        <article>
+            <img alt="Pruebas API" width="150" id="img1">
+            <button id="btn1">
+                Guardar Michi en Favoritos
+            </button>
+        </article>
+
+        <article>
+            <img alt="Pruebas API" width="150" id="img2">
+            <button id="btn2">
+                Guardar Michi en Favoritos
+            </button>
+        </article>
+
+        <button onclick="loadRandomMichis()">Recargar</button>
+    </section>
+
+    
+    <section id="favoritiesMichies">
+        <h2>Gatitos Favoritos</h2>
+    
+        <article>
+            <img alt="Pruebas API" width="150" id="img1">
+            <button>Sacar Michi en Favoritos</button>
+        </article>
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+</html>
